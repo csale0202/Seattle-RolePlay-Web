@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html {
+    height: 100%;
+	  overflow: auto;
+}
+
+body {
+    background-image: url("../img/bg/bgv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+* {
+    -moz-transition: ease-in 0.400s;
+    -o-transition: ease-in 0.400s;
+    -webkit-transition: ease-in 0.400s;
+    transition: ease-in 0.400s;
+}
+
+#wrapper {
+  margin-top: 10%;
+}
+
+#header {
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 2px;
+    display: block;
+    padding: 0;
+}
+
+#dev-text h1{
+    display: inline-block;
+    font-family: 'Comfortaa', cursive;
+    color: #008b8b;
+    font-size: 12px;
+}
+
+#header .logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  /* VK
+-----------------------------------------------------------------------------*/
+#social {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#soc {
+	width: 680px;
+  color: white;
+  margin-top: 50px;
+}
+
+.vk {
+	width: 300px;
+	display: inline-block;
+	float: left;
+	/*margin-top: 30px;*/
+}
+
+
+.vkfree {
+	width: 300px;
+	display: inline-block;
+	float: right;
+	/*margin-top: 30px;*/
+}
+
+/* buttons
+-----------------------------------------------------------------------------*/
+.btn-main {
+    display: inline-block;
+    border: 2px solid #ef500c;
+    border-radius: 50px;
+    padding: 10px 50px;
+    color: #ef500c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.btn-main:hover {
+    background: #ef500c;
+    box-shadow: #ef500c 0px 0px 20px 2px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.btn-vkfree {
+    display: inline-block;
+    border: 2px solid #ef500c;
+    border-radius: 50px;
+    padding: 10px 50px;
+    background: #ef500c;
+    box-shadow: #ef500c 0px 0px 20px 2px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.btn-vkfree:hover {
+    color: #ef500c;
+    box-shadow: none;
+    background: none;
+    opacity: 0.9;
+}
